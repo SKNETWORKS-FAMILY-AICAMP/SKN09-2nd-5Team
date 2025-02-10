@@ -1,27 +1,18 @@
 import streamlit as st
 
+st.title("lightGBM")
 
 st.title("RandomForest 분석")
 st.write("이 페이지에서는 RandomForest 모델 성능 분석을 보여줍니다.\n")
 
 st.subheader('Confusion Matrix')
-<<<<<<< HEAD
-st.image("./image/RF_Confusion Matrix.png", caption="Confusion Matrix", use_column_width=True)
+st.image("./image/lightgbm_confusion.png", caption="이미지 3", use_container_width=True)
 
 st.subheader('Calibration Curve')
-st.image("./image/RF_Calibration Curve.png", caption="Calibration Curve", use_column_width=True)
+st.image("./image/light_gbm_Calibration.png", caption="이미지 2", use_container_width=True)
 
 st.subheader('ROC Curve')
-st.image("./image/RF_ROC Curve.png", caption="ROC Curve", use_column_width=True)
-=======
-st.image("./image/RF_Confusion Matrix.png", caption="Confusion Matrix", use_container_width=True)
-
-st.subheader('Calibration Curve')
-st.image("./image/RF_Calibration Curve.png", caption="Calibration Curve", use_container_width=True)
-
-st.subheader('ROC Curve')
-st.image("./image/RF_ROC Curve.png", caption="ROC Curve", use_container_width=True)
->>>>>>> 88a1672bd47e1e4f718a8ad846bd8a502db8be88
+st.image("./image/lightGBM_ROC.png", caption="이미지 1",use_container_width=True)
 
 # 설명 추가
 st.markdown('''
