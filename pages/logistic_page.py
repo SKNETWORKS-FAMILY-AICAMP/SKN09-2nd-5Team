@@ -6,7 +6,7 @@ st.title("Logistic Regression 분석")
 st.write("이 페이지에서는 Logistic Regression 모델 성능 분석을 보여줍니다.\n")
 
 st.subheader('Confusion Matrix')
-st.image("../image/lr_confusion_matrix.png", caption="이미지 3", use_container_width=True)
+st.image("./image/lr_confusion_matrix.png", caption="이미지 3", use_container_width=True)
 
 st.subheader('Calibration Curve')
 st.image("./image/lr_Calibration_curve.png", caption="이미지 2", use_container_width=True)
