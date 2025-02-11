@@ -58,7 +58,7 @@ https://www.kaggle.com/datasets/adrianvinueza/gym-customers-features-and-churn
 
 ----
 
-## 기술 스텍
+## 기술 스택
 
 ## 🛠 협업 및 문서화  
 ![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=Discord&logoColor=white) 
