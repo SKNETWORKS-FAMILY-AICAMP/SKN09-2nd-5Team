@@ -95,6 +95,8 @@ https://www.kaggle.com/datasets/adrianvinueza/gym-customers-features-and-churn
 ## WBS
 ![image](https://github.com/user-attachments/assets/525b4740-d79b-436c-8ee0-d8fad31a2f46)
 
+![after](https://github.com/user-attachments/assets/927f1ca7-46eb-4ac0-982a-25af59b71029)
+
 <br>
 
 ----
