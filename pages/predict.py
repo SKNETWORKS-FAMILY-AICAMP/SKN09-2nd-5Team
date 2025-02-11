@@ -81,14 +81,23 @@ member_data = pd.DataFrame({
     'Avg_class_frequency_current_month': Avg_class_frequency_current_month_value
 }, index=[0])
 
-model_list = ["결정트리", "서포트 벡터 머신"]
+model_list = ["XGBoost (추천 모델)","랜덤 포레스트", "lightGBM", "K-최근접이웃", "결정트리", "로지스틱 회귀", "서포트 벡터 머신"]
 
 selected_model = st.selectbox("어떤 모델로 계산할까요?", model_list)
-
-if selected_model == "결정트리":
-    model_path = "../saved_model/best_dt.joblib"
+if selected_model == "XGBoost (추천 모델)":
+    model_path = "./saved_model/XGBoost.joblib"
+elif selected_model == "랜덤 포레스트":
+    model_path = "./saved_model/random_forest.joblib"
+elif selected_model == "lightGBM":
+    model_path = "./saved_model/lightGBM.joblib"
+elif selected_model == "K-최근접이웃":
+    model_path = "./saved_model/knn_model.joblib"
+elif selected_model == "결정트리":
+    model_path = "./saved_model/best_dt.joblib"
+elif selected_model == "로지스틱 회귀":
+    model_path = "./saved_model/best_lr.joblib"
 elif selected_model == "서포트 벡터 머신":
-    model_path = "../saved_model/best_svm.joblib"
+    model_path = "./saved_model/best_svm.joblib"
 
 loaded_model = load(model_path)
 prediction = loaded_model.predict(member_data)
