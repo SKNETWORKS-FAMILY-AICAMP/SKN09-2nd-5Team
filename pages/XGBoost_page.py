@@ -9,7 +9,7 @@ st.subheader('Confusion Matrix')
 st.image("./image/XG_confusion_matrix.png", caption="이미지 3", use_container_width=True)
 
 st.subheader('Calibration Curve')
-st.image("./image/XG_Calibration_curve.png", caption="이미지 2", use_container_width=True)
+st.image("./image/XB_calibration_curve.png", caption="이미지 2", use_container_width=True)
 
 st.subheader('ROC Curve')
 st.image("./image/XG_roc_curve.png", caption="이미지 1",use_container_width=True)
