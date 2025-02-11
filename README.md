@@ -49,9 +49,39 @@ https://www.kaggle.com/datasets/adrianvinueza/gym-customers-features-and-churn
 ### 6. **기대효과**
 고객 탈퇴는 기업 수익에 직접적인 영향을 미칩니다. 고객 이탈을 사전에 예측하고 예방하는 시스템을 통해 기업은 경쟁력을 높이고, 장기적인 성장을 도모할 수 있습니다. 머신러닝 기법을 활용하여 정확한 예측과 고객 맞춤형 서비스를 제공함으로써 탈퇴를 방지하고, 고객 만족도를 향상시킬 수 있습니다.
 
-
+----
 ## 기술 스텍
 
+## 🛠 협업 및 문서화  
+![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=Discord&logoColor=white) 
+![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white)  
+
+## 💻 개발 도구  
+![VSCode](https://img.shields.io/badge/VScode-007ACC?style=for-the-badge&logo=Visual-Studio-Code&logoColor=white)  
+
+## 🔗 버전 관리  
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white) 
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)  
+
+## 🚀 프로그래밍 언어  
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white)  
+
+## 📊 데이터 분석  
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white) 
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=NumPy&logoColor=white)  
+
+## 🤖 머신러닝  
+![Scikit-Learn](https://img.shields.io/badge/Scikit%20Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)  
+
+## 📈 데이터 시각화  
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=Matplotlib&logoColor=white) 
+![Seaborn](https://img.shields.io/badge/Seaborn-4C8CBF?style=for-the-badge&logo=Seaborn&logoColor=white)  
+
+## 🚀 배포 및 대시보드  
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)  
+
+
+----
 ## WBS
 ![image](https://github.com/user-attachments/assets/525b4740-d79b-436c-8ee0-d8fad31a2f46)
 ---
