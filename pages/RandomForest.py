@@ -5,6 +5,7 @@ st.title("RandomForest 분석")
 st.write("이 페이지에서는 RandomForest 모델 성능 분석을 보여줍니다.\n")
 
 st.subheader('Confusion Matrix')
+<<<<<<< HEAD
 st.image("./image/RF_Confusion Matrix.png", caption="Confusion Matrix", use_container_width=True)
 
 st.subheader('Calibration Curve')
@@ -12,6 +13,15 @@ st.image("./image/RF_Calibration Curve.png", caption="Calibration Curve", use_co
 
 st.subheader('ROC Curve')
 st.image("./image/RF_ROC Curve.png", caption="ROC Curve", use_container_width=True)
+=======
+st.image("./image/RF_Confusion Matrix.png", caption="Confusion Matrix", use_column_width=True)
+
+st.subheader('Calibration Curve')
+st.image("./image/RF_Calibration Curve.png", caption="Calibration Curve", use_column_width=True)
+
+st.subheader('ROC Curve')
+st.image("./image/RF_ROC Curve.png", caption="ROC Curve", use_column_width=True)
+>>>>>>> a3fc682d0b426121229d5439b4b8657e7bdaf78b
 
 # 설명 추가
 st.markdown('''
