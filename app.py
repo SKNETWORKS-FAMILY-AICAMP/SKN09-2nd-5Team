@@ -17,4 +17,3 @@ st.write("""
 """)
 
 st.write("더 자세한 내용은 페이지를 통해 확인하세요!")
-st.markdown("[페이지 1로 가기](./pages/page1)")

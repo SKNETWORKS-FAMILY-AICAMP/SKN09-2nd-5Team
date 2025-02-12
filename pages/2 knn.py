@@ -41,4 +41,3 @@ st.markdown('''
 ''')
 
 st.write("더 자세한 내용은 깃허브를 통해 확인하세요!")
-st.markdown("[메인페이지로 가기](./app.py)")
