@@ -12,6 +12,19 @@
 
 ----
 
+# 목차
+
+1. [프로젝트 개요](#-project-overview-프로젝트-개요)
+2. [팀 소개](#-team-introduction)
+3. [기술 스택](#기술-스택)
+4. [WBS](#wbs)
+5. [데이터 전처리 결과서 (EDA)](#데이터-전처리-결과서-eda)
+6. [전략 방향](#전략-방향)
+7. [인공지능 학습 결과서](#인공지능-학습-결과서)
+8. [모델 성능 분석](#모델-성능-분석)
+
+----
+
 ## 📢 **Team Introduction**
 
 | [@유지은](https://github.com/yujitaeng)                      | [@이광운](https://github.com/Leegwangwoon)                       | [@이윤재](https://github.com/Leeyoonjae)                       | [@최재동](https://github.com/Monkakaka)                       |
