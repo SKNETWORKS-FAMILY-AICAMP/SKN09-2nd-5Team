@@ -195,6 +195,21 @@ https://www.kaggle.com/datasets/adrianvinueza/gym-customers-features-and-churn
 
 -----
 
+
+## 모델 성능 분석
+
+### 1. XGBoost Calibration Curve
+![XGBoost Calibration Curve](image/XB_calibration_curve.png)
+
+### 2. XGBoost Confusion Matrix
+![XGBoost Confusion Matrix](image/XG_confusion_matrix.png)
+
+### 3. XGBoost ROC Curve
+![XGBoost ROC Curve](image/XG_roc_curve.png)
+
+
+-----
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/8434a8e0-0077-4122-8941-6fdcfe6cc130" width="60%">
 </p>
