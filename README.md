@@ -103,20 +103,20 @@ https://www.kaggle.com/datasets/adrianvinueza/gym-customers-features-and-churn
 ## **데이터 전처리 결과서 (EDA)**
 
 ### **📌 Feature 설명**
-1. gender: 성별 (0 = 여성, 1 = 남성)
-2. Near_Location: 헬스장이 집 또는 직장과 가까운지 여부 (1 = 가까움, 0 = 멀다)
-3. Partner: 헬스장과 제휴된 기업 직원 여부 (1 = 제휴 기업 직원, 0 = 비제휴)
-4. Promo_friends: 친구 추천 프로모션을 통해 가입했는지 여부 (1 = 예, 0 = 아니오)
-5. Phone: 전화번호 제공 여부 (1 = 제공함, 0 = 제공 안 함)
-6. Contract_period: 계약한 헬스장 이용 기간 (개월 단위, 1/6/12 등)
-7. Group_visits: 단체 수업 참여 여부 (1 = 참여, 0 = 참여 안 함)
-8. Age: 가입자의 나이
-9. Avg_additional_charges_total: 총 추가 지출 비용 (추가 서비스나 상품 구매 금액)
-10. Month_to_end_contract: 현재 계약이 종료되기까지 남은 개월 수
-11. Lifetime: 헬스장 이용 개월 수 (가입 후 총 몇 개월 동안 이용했는지)
-12. Avg_class_frequency_total: 전체 평균 수업 참여 빈도 (주 단위)
-13. Avg_class_frequency_current_month: 최근 한 달간 평균 수업 참여 빈도 (주 단위)
-14. Churn: 이탈 여부 (1 = 헬스장을 그만둔 회원, 0 = 유지한 회원)
+1. ```gender```: 성별 (0 = 여성, 1 = 남성)
+2. ```Near_Location```: 헬스장이 집 또는 직장과 가까운지 여부 (1 = 가까움, 0 = 멀다)
+3. ```Partner```: 헬스장과 제휴된 기업 직원 여부 (1 = 제휴 기업 직원, 0 = 비제휴)
+4. ```Promo_friends```: 친구 추천 프로모션을 통해 가입했는지 여부 (1 = 예, 0 = 아니오)
+5. ```Phone```: 전화번호 제공 여부 (1 = 제공함, 0 = 제공 안 함)
+6. ```Contract_period```: 계약한 헬스장 이용 기간 (개월 단위, 1/6/12 등)
+7. ```Group_visits```: 단체 수업 참여 여부 (1 = 참여, 0 = 참여 안 함)
+8. ```Age```: 가입자의 나이
+9. ```Avg_additional_charges_total```: 총 추가 지출 비용 (추가 서비스나 상품 구매 금액)
+10. ```Month_to_end_contract```: 현재 계약이 종료되기까지 남은 개월 수
+11. ```Lifetime```: 헬스장 이용 개월 수 (가입 후 총 몇 개월 동안 이용했는지)
+12. ```Avg_class_frequency_total```: 전체 평균 수업 참여 빈도 (주 단위)
+13. ```Avg_class_frequency_current_month```: 최근 한 달간 평균 수업 참여 빈도 (주 단위)
+14. ```Churn: 이탈 여부``` (1 = 헬스장을 그만둔 회원, 0 = 유지한 회원)
 
 <br>
 
