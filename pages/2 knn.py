@@ -1,11 +1,7 @@
 import streamlit as st
 
-st.title("k-최근접 이웃 알고리즘")
-
-import streamlit as st
-
-st.title("RandomForest 분석")
-st.write("이 페이지에서는 RandomForest 모델 성능 분석을 보여줍니다.\n")
+st.title("k-최근접 이웃 알고리즘 분석")
+st.write("이 페이지에서는 k-최근접 이웃 알고리즘 모델 성능 분석을 보여줍니다.\n")
 
 st.subheader('Confusion Matrix')
 st.image("./image/knn_confusion_matrix.png", caption="이미지 3", use_container_width=True)

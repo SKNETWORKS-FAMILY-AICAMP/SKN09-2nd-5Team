@@ -1,9 +1,7 @@
 import streamlit as st
 
-st.title("lightGBM")
-
-st.title("RandomForest 분석")
-st.write("이 페이지에서는 RandomForest 모델 성능 분석을 보여줍니다.\n")
+st.title("lightGBM 분석")
+st.write("이 페이지에서는 lightGBM 모델 성능 분석을 보여줍니다.\n")
 
 st.subheader('Confusion Matrix')
 st.image("./image/lightgbm_confusion.png", caption="이미지 3", use_container_width=True)
