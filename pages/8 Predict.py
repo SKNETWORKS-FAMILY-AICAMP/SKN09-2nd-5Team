@@ -4,6 +4,8 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from joblib import load
 from sklearn.preprocessing import StandardScaler
+import shap
+import matplotlib.pyplot as plt
 
 st.title("회원 이탈 여부 예측하기")
 
@@ -130,7 +132,9 @@ loaded_model = st.session_state.models[selected_model_name]
 df = pd.read_csv('./data/gym_churn_us.csv')
 columns = ['Avg_additional_charges_total', 'Month_to_end_contract', 'Lifetime', 'Avg_class_frequency_total', 'Avg_class_frequency_current_month']
 scaler = StandardScaler()
-
+X = df.drop('Churn', axis=1)
+y = df['Churn']
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 if selected_model_name == "XGBoost (추천 모델)":
     df[columns] =scaler.fit_transform(df[columns])
@@ -141,3 +145,17 @@ prediction = loaded_model.predict(member_data)
 if st.button("예측 결과 확인하기"):
     # print(prediction)
     st.write(f"예측된 결과: {'나갈 회원' if prediction[0] == 1 else '남을 회원'}")
+
+    if selected_model_name == "XGBoost (추천 모델)":
+        # SHAP explainer 생성
+        explainer = shap.Explainer(loaded_model)
+        shap_values = explainer.shap_values(X_test)
+        fig, ax = plt.subplots()
+    
+        # SHAP Summary Plot
+        shap.summary_plot(shap_values, X_test, show=False)
+        st.pyplot(fig)
+    
+        # SHAP 값 테이블 출력
+        shap_values_df = pd.DataFrame(shap_values[0].flatten(), columns=['SHAP_value'], index=X_test.columns)
+        st.write(shap_values_df)
