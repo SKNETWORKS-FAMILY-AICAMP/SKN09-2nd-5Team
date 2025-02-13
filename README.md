@@ -1,10 +1,11 @@
-# SK Networks AI CAMP 9기 - 2nd Team: 근육빵빵  
-**개발 기간:** 2025.02.03 ~ 2025.02.04
+# 💪 SK Networks AI CAMP 9기 - 2nd Team: 근육빵빵  
+- **개발 기간:** 2025.02.03 ~ 2025.02.04
 
 ---
-## ❓Why 근육빵빵?
--> 근육 빵빵 (회원)탈출(률) 00명
 
+## '근육빵빵'이란?
+- "근육 빵빵, 회원 이탈률 00명"
+- **'헬스장 회원 이탈률 00명으로 만들고, 유지중인 회원들에게 근육을 빵빵하게 만들겠다'** 는 중의적인 의미를 담고 있습니다.
 
 <img src="image/main_image.png" width="100%" height="auto">
 
@@ -12,20 +13,23 @@
 
 ----
 
-# 📜 목차
+# 📌 목차
+<br>
 
-1. [프로젝트 개요](#-project-overview-프로젝트-개요)
-2. [팀 소개](#-team-introduction)
-3. [기술 스택](#기술-스택)
-4. [WBS](#wbs)
-5. [데이터 전처리 결과서 (EDA)](#데이터-전처리-결과서-eda)
-6. [전략 방향](#전략-방향)
-7. [인공지능 학습 결과서](#인공지능-학습-결과서)
-8. [모델 성능 분석](#모델-성능-분석)
+1. [팀 소개](#1️⃣-팀-소개)
+2. [프로젝트 개요](#2️⃣-프로젝트-개요)
+3. [기술 스택](#3️⃣-기술-스택)
+4. [WBS](#4️⃣-wbs)
+5. [데이터 전처리 결과서](#5️⃣-데이터-전처리-결과서-eda)
+6. [머신러닝 분석 및 결과](#6️⃣-머신러닝-분석-및-결과)
+7. [기대효과 및 전략](#7️⃣-기대효과-및-전략)
+
+<br>
 
 ----
 
-## 📢 **Team Introduction**
+# 1️⃣ **팀 소개**
+<br>
 
 | [@유지은](https://github.com/yujitaeng)                      | [@이광운](https://github.com/Leegwangwoon)                       | [@이윤재](https://github.com/Leeyoonjae)                       | [@최재동](https://github.com/Monkakaka)                       |
 |---------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
@@ -36,65 +40,78 @@
 <br>
 
 ----
+# 2️⃣ **프로젝트 개요**
 
-## 🎯 **Project Overview (프로젝트 개요)**
+## 1. 프로젝트 개요
+이 프로젝트는 **헬스장 고객 탈퇴 예측 시스템**을 구축하여, 고객 이탈을 사전에 감지하고 효과적으로 예방하는 방법을 탐색하는 것을 목표로 합니다. <br>
+머신러닝 모델을 활용해 고객 데이터를 분석하고, 이를 통해 탈퇴 가능성을 예측하여 기업이 보다 전략적인 고객 유지 방안을 마련할 수 있도록 지원합니다.
+<br>
 
-### 1. **프로젝트 개요**
-고객 탈퇴 예측 시스템을 구축하여, 고객 탈퇴를 예측하고 예방할 수 있는 방법을 탐구하는 프로젝트입니다. 머신러닝 모델을 활용하여 고객의 다양한 특성을 분석하고, 이를 통해 탈퇴 가능성을 예측합니다.
-
-### 2. **설정**
-- 고객 데이터를 수집하고, 이를 기반으로 예측 모델을 구축합니다.
-- 모델은 고객의 탈퇴 가능성을 예측하고, 각 특성에 대한 분석 결과를 사용자에게 제공합니다.
-- 데이터 전처리, 특성 선택, 모델 훈련 및 평가 단계를 거쳐 최적의 예측 모델을 구축합니다.
-
-### 3. **목표**
-- **고객 탈퇴 예측:** 머신러닝을 활용하여 고객의 탈퇴 가능성을 예측하고 조기에 감지합니다.
-- **주요 탈퇴 원인 분석:** 탈퇴와 높은 연관성을 가진 주요 특성을 분석합니다.
-- **탈퇴 방지 전략 수립:** 분석 결과를 바탕으로 고객 유지율을 높일 수 있는 맞춤형 대응 방안을 도출합니다.
-- **기업 경쟁력 강화:** 탈퇴 고객을 감소시켜 수익 손실을 줄이고, 브랜드 신뢰도를 유지하여 기업의 장기적인 성장을 지원합니다.
-
-### 4. **필요성**
-머신러닝 기법을 활용한 고객 탈퇴 예측 시스템은 정확한 예측을 통해 탈퇴 가능성이 높은 고객을 사전에 파악하고, 이를 바탕으로 맞춤형 서비스를 제공하여 고객 만족도를 높이고 탈퇴를 방지할 수 있음. 또한, 탈퇴 원인에 대한 명확한 분석을 통해 고객이 느끼는 불편함을 개선할 수 있는 방법을 도출할 수 있음. 이 시스템은 마케팅 전략, 고객 지원, 제품 개선 등 여러 분야에서 중요한 데이터로 활용 가능
+## 2. 필요성 및 배경
+최근 기업들은 급변하는 시장 환경과 치열한 경쟁 속에서 **고객 유지(Customer Retention)** 가 핵심 과제로 떠오르고 있습니다. <br>
+특히 구독 서비스, 피트니스 센터, 온라인 쇼핑몰, 금융 서비스 등 장기적인 고객 관계가 중요한 산업에서는 고객 이탈(Churn)이 매출과 직결되는 중요한 문제입니다.<br>
+<br>
+실제로 최근 헬스장 산업의 위기를 보면, 회원 수 급감으로 인해 운영에 심각한 타격을 입고 있는 사례가 증가하고 있습니다.<br>
+회원 이탈은 수익 감소뿐만 아니라 브랜드 신뢰도에도 부정적인 영향을 미치며, 지속적인 신규 고객 유치에도 한계가 있기 때문에 **기존 고객을 유지하는 것이 점점 더 중요** 해지고 있습니다.
 
 ![image (2)](https://github.com/user-attachments/assets/83f6e561-aef5-4309-9972-51d7932b36b9)
-
 출처 ㅣ https://view.asiae.co.kr/article/2025013115300100923
+<br>
 
-### 5. **사용 데이터셋**
+## 3. 설정
+- 고객 데이터를 수집 및 정제하여 예측 모델을 구축합니다.
+- 머신러닝 모델을 활용하여 고객의 탈퇴 가능성을 분석하고, 각 특성이 탈퇴에 미치는 영향을 평가합니다.
+- 데이터 전처리, 특성 선택, 모델 훈련 및 평가 단계를 거쳐 최적화된 예측 모델을 개발합니다.
+<br>
+
+## 4. 목표
+- **고객 탈퇴 예측:** 머신러닝을 활용하여 고객의 탈퇴 가능성을 조기에 감지합니다.
+- **주요 탈퇴 원인 분석:** 탈퇴와 높은 연관성을 가진 핵심 요인을 식별하여 인사이트를 도출합니다.
+- **맞춤형 탈퇴 방지 전략 수립:** 분석 결과를 기반으로 고객 유지율을 극대화할 수 있는 맞춤형 대응 방안을 마련합니다.
+- **기업 경쟁력 강화:** 고객 이탈을 최소화하여 수익 손실을 줄이고, 브랜드 신뢰도를 유지하며 지속적인 성장을 도모합니다.
+<br>
+
+## 5. **사용 데이터셋**
 https://www.kaggle.com/datasets/adrianvinueza/gym-customers-features-and-churn
-
-
 
 <br>
 
 ----
 
-## 기술 스택
+# 3️⃣ **기술 스택**
+<br>
 
 ### 🛠 협업 및 문서화  
 ![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=Discord&logoColor=white) 
 ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white)  
+<br>
 
 ### 💻 도구  
 ![VSCode](https://img.shields.io/badge/VScode-007ACC?style=for-the-badge&logo=Visual-Studio-Code&logoColor=white)
+<br>
 
 ### 😺 형상 관리
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white) 
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)  
+<br>
 
 ### 🚀 프로그래밍 언어  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white)  
+<br>
 
 ### 📊 데이터 분석  
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white) 
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=NumPy&logoColor=white)  
+<br>
 
 ### 🤖 머신러닝  
 ![Scikit-Learn](https://img.shields.io/badge/Scikit%20Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)  
+<br>
 
 ### 📈 데이터 시각화  
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=Matplotlib&logoColor=white) 
 ![Seaborn](https://img.shields.io/badge/Seaborn-4C8CBF?style=for-the-badge&logo=Seaborn&logoColor=white)  
+<br>
 
 ### 🔗 대시보드  
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)  
@@ -103,7 +120,7 @@ https://www.kaggle.com/datasets/adrianvinueza/gym-customers-features-and-churn
 
 ----
 
-## WBS
+# 4️⃣ **WBS**
 ![image](https://github.com/user-attachments/assets/525b4740-d79b-436c-8ee0-d8fad31a2f46)
 
 
@@ -111,9 +128,9 @@ https://www.kaggle.com/datasets/adrianvinueza/gym-customers-features-and-churn
 
 ----
 
-## **데이터 전처리 결과서 (EDA)**
+# 5️⃣ **데이터 전처리 결과서 (EDA)**
 
-### **📌 Feature 설명**
+### **Feature 설명**
 1. ```gender```: 성별 (0 = 여성, 1 = 남성)
 2. ```Near_Location```: 헬스장이 집 또는 직장과 가까운지 여부 (1 = 가까움, 0 = 멀다)
 3. ```Partner```: 헬스장과 제휴된 기업 직원 여부 (1 = 제휴 기업 직원, 0 = 비제휴)
@@ -127,7 +144,7 @@ https://www.kaggle.com/datasets/adrianvinueza/gym-customers-features-and-churn
 11. ```Lifetime```: 헬스장 이용 개월 수 (가입 후 총 몇 개월 동안 이용했는지)
 12. ```Avg_class_frequency_total```: 전체 평균 수업 참여 빈도 (주 단위)
 13. ```Avg_class_frequency_current_month```: 최근 한 달간 평균 수업 참여 빈도 (주 단위)
-14. ```Churn: 이탈 여부``` (1 = 헬스장을 그만둔 회원, 0 = 유지한 회원)
+14. ```Churn```: 이탈 여부 (1 = 헬스장을 그만둔 회원, 0 = 유지한 회원)
 
 <br>
 
@@ -147,7 +164,7 @@ https://www.kaggle.com/datasets/adrianvinueza/gym-customers-features-and-churn
 
 <br>
 
-### 따라서,
+## 따라서,
 고객의 **이탈률과 추가 지출**은 다양한 요인에 의해 영향을 받으며, 특히 **계약 기간, 연령대, 운동 빈도, 추가 지출 패턴, 그리고 계약 종료까지 남은 기간**이 주요한 영향을 미친다. 
 
 #### **1. 추가 지출 및 고객 행동 분석**  
@@ -178,7 +195,7 @@ https://www.kaggle.com/datasets/adrianvinueza/gym-customers-features-and-churn
 
 ---
 
-## 인공지능 학습 결과서
+# 6️⃣ 머신러닝 분석 및 결과
 <br>
 
 | 모델명         | Accuracy(정확도) | Precision(정밀도) | f1-score | ROC   |
@@ -193,14 +210,15 @@ https://www.kaggle.com/datasets/adrianvinueza/gym-customers-features-and-churn
 
 <br>
 
------
+아래의 이미지는, 다른 모델들 보다 뛰어난 성능을 보여주고 있는 **'XGBoost'** 의 결과 입니다.
 
-
-## 모델 성능 분석
+<br>
 
 ### 1. XGBoost Calibration Curve
 ![XGBoost Calibration Curve](image/XB_calibration_curve.png)
 - 과정이 진행되면서, 예측 확률이 실제 클래스 레이블과 잘 일치하게 되면서 모델이 잘 보정되었다.
+
+<br>
 
 ### 2. XGBoost Confusion Matrix
 ![XGBoost Confusion Matrix](image/XG_confusion_matrix.png)
@@ -209,26 +227,33 @@ https://www.kaggle.com/datasets/adrianvinueza/gym-customers-features-and-churn
 - 거짓 음성(FN): 34건 (이탈하지 않을 것으로 예측했으나 실제로 이탈함)
 - 진짜 양성(TP): 168건 (이탈할 것으로 예측했고 실제로 이탈함)
 
+<br>
+
 ### 3. XGBoost ROC Curve
 ![XGBoost ROC Curve](image/XG_roc_curve.png)
 - ROC 곡선은 모델이 양성과 음성을 잘 구분하고 있다. (곡선이 왼쪽 위 코너에 가까워질수록 모델의 성능이 우수)
 - AUC 값이 0.9774으로 매우 높아, 모델이 98%의 확률로 양성과 음성을 구분할 수 있음을 보여준다.
 -> 모델의 분류 성능이 뛰어나며 신뢰할 수 있는 예측을 제공한다는 것을 의미한다.
 
+<br>
+
 **최종 결론**
-- 모델의 예측 성능이 전반적으로 우수하며, 특히 **91.63%의 높은 정확도**를 보임
-- 고객 이탈 예측에 있어 **고객의 생애 기간과 수업 참여도**가 가장 중요한 지표
-- 하이퍼파라미터 튜닝 결과, 복잡한 모델이 아니어도 충분한 성능을 낼 수 있음
-- ROC 곡선과 AUC 분석 결과, 모델의 분류 성능이 매우 뛰어나며, 신뢰할 수 있는 예측을 제공함
-- 실제 활용을 위해서는 특히 고객의 생애 기간과 수업 참여도를 중점적으로 모니터링하고, 이탈 위험이 있는 고객들에 대한 선제적 관리가 필요
+- 모델의 예측 성능이 전반적으로 우수하며, 특히 **91.63%의 높은 정확도**를 보입니다.
+- 고객 이탈 예측에 있어 **고객의 생애 기간과 수업 참여도**가 가장 중요한 지표라 할 수 있습니다.
+- 하이퍼파라미터 튜닝 결과, 복잡한 모델이 아니어도 충분한 성능을 낼 수 있습니다.
+- ROC 곡선과 AUC 분석 결과, 모델의 분류 성능이 매우 뛰어나며, 신뢰할 수 있는 예측을 제공합니다.
+- 실제 활용을 위해서는 특히 고객의 생애 기간과 수업 참여도를 중점적으로 모니터링하고, 이탈 위험이 있는 고객들에 대한 선제적 관리가 필요합니다.
+
+<br>
 
 -----
 
 
-## **기대효과 및 전략**
-고객 탈퇴는 기업 수익에 직접적인 영향을 미칩니다. 고객 이탈을 사전에 예측하고 예방하는 시스템을 통해 기업은 경쟁력을 높이고, 장기적인 성장을 도모할 수 있습니다. 머신러닝 기법을 활용하여 정확한 예측과 고객 맞춤형 서비스를 제공함으로써 탈퇴를 방지하고, 고객 만족도를 향상시킬 수 있습니다.
+# 7️⃣ **기대효과 및 전략**
+고객 탈퇴는 기업 수익에 직접적인 영향을 미칩니다. 고객 이탈을 사전에 예측하고 예방하는 시스템을 통해 기업은 경쟁력을 높이고, 장기적인 성장을 도모할 수 있습니다. <br>
+머신러닝 기법을 활용하여 정확한 예측과 고객 맞춤형 서비스를 제공함으로써 탈퇴를 방지하고, 고객 만족도를 향상시킬 수 있습니다.
 
-## **전략 방향**  
+### **전략 방향**  
 1. **추가 지출 증대 전략**  
    - 친구 추천 프로그램(Promo_friends) 강화를 통해 추가 지출을 유도.  
    - 제휴사 회원(Partner)과 근처 거주 고객(Near_Location)에게 맞춤형 혜택 제공.  
@@ -242,6 +267,8 @@ https://www.kaggle.com/datasets/adrianvinueza/gym-customers-features-and-churn
 
 
 -----
+
+<p align="center"> <strong>"근육빵빵과 함께 회원을 유치하고, 근육빵빵 오운완하세요💪"</strong> </p>
 
 
 <p align="center">
