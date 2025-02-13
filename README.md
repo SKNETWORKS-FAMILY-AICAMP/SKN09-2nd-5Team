@@ -3,18 +3,7 @@
 
 ---
 
-## '근육빵빵'이란?
-- "근육 빵빵, 회원 이탈률 00명"
-- **'헬스장 회원 이탈률 00명으로 만들고, 유지중인 회원들에게 근육을 빵빵하게 만들겠다'** 는 중의적인 의미를 담고 있습니다.
-
-<img src="image/main_image.png" width="100%" height="auto">
-
-<br>
-
-----
-
 # 📌 목차
-<br>
 
 1. [팀 소개](#1️⃣-팀-소개)
 2. [프로젝트 개요](#2️⃣-프로젝트-개요)
@@ -29,6 +18,16 @@
 ----
 
 # 1️⃣ **팀 소개**
+### 팀명, '근육빵빵'이란?
+- "근육 빵빵, 회원 이탈률 00명"
+- **'헬스장 회원 이탈률 00명으로 만들고, 유지중인 회원들에게 근육을 빵빵하게 만들겠다'** 는 중의적인 의미를 담고 있습니다.
+
+<img src="image/main_image.png" width="100%" height="auto">
+
+<br>
+
+### 팀원 소개
+
 <br>
 
 | [@유지은](https://github.com/yujitaeng)                      | [@이광운](https://github.com/Leegwangwoon)                       | [@이윤재](https://github.com/Leeyoonjae)                       | [@최재동](https://github.com/Monkakaka)                       |
