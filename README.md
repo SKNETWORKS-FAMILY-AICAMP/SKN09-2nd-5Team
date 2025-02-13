@@ -53,7 +53,7 @@
 최근 기업들은 급변하는 시장 환경과 치열한 경쟁 속에서 고객 유지(Customer Retention) 를 핵심 과제로 삼고 있습니다. <br>
 특히, 구독 서비스, 피트니스 센터, 온라인 쇼핑몰, 금융 서비스 등 장기적인 고객 관계가 중요한 산업에서 고객 이탈(Churn)은 매출과 직결되는 중요한 문제입니다. <Br>
 
-#### **헬스장 산업의 위기**
+### **헬스장 산업의 위기**
 - 회원 수 급감으로 인한 운영 타격 사례 증가
 - 회원 이탈 → 수익 감소 & 브랜드 신뢰도 하락
 - 지속적인 신규 고객 유치에는 한계 존재
@@ -62,6 +62,7 @@
 
 ![image (2)](https://github.com/user-attachments/assets/83f6e561-aef5-4309-9972-51d7932b36b9)
 출처 ㅣ https://view.asiae.co.kr/article/2025013115300100923
+
 <br>
 
 ## 3. 구현 기능
@@ -249,7 +250,14 @@ https://www.kaggle.com/datasets/adrianvinueza/gym-customers-features-and-churn
 
 <br>
 
-**최종 결론**
+### 4. 시연 페이지
+![predict](https://github.com/user-attachments/assets/aba03407-bd73-4c19-be89-d6a82a73cd92)
+![app-1](https://github.com/user-attachments/assets/3b218cfb-f299-420b-b91c-f5a951bcecbf)
+
+
+<br>
+
+#### **최종 결론**
 - 모델의 예측 성능이 전반적으로 우수하며, **91.63%의 높은 정확도**를 기록.
 - 고객 이탈 예측에 있어 **고객의 생애 기간**과 **수업 참여도**가 가장 중요한 지표임.
 - 하이퍼파라미터 튜닝 결과, 복잡한 모델이 아니어도 충분한 성능을 발휘할 수 있음.
